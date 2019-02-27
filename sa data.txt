@@ -1,0 +1,29 @@
+
+uses Unit2;
+
+{$R *.dfm}
+
+procedure TForm1.Button1Click(Sender: TObject);
+var
+user:string;
+pass:string;
+begin
+user:='erlan';
+pass:='123';
+if (edit1.text=user) and (edit2.text=pass) then
+begin
+showMessage('welcome user');
+form1.Hide;
+form2.show;
+end
+else if (edit1.text='')and(edit2.text='') then
+begin
+showMessage('data belum ada')
+end else
+showMessage('data salah');
+edit1.text:='';
+edit2.text:='' ;
+
+end;
+
+end.

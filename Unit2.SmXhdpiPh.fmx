@@ -1,0 +1,35 @@
+inherited Form2_SmXhdpiPh: TForm2_SmXhdpiPh
+  ClientHeight = 375
+  ClientWidth = 250
+  DesignerMasterStyle = 3
+  inherited Edit1: TEdit
+    Text = 'kapal1'
+    Position.X = 8.000000000000000000
+    Locked = True
+    Size.Width = 225.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Edit2: TEdit
+    Text = 'kapal2'
+    Position.X = 8.000000000000000000
+    Position.Y = 176.000000000000000000
+    Locked = True
+    Size.Width = 233.000000000000000000
+    Size.PlatformDefault = False
+  end
+  inherited Button1: TButton
+    Locked = True
+    Position.X = 8.000000000000000000
+    Position.Y = 216.000000000000000000
+    Text = 'back'
+    OnClick = Button1Click
+  end
+  inherited Label1: TLabel
+    Locked = True
+    Position.X = 80.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 121.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'data kapal'
+  end
+end
